@@ -1,0 +1,46 @@
+.dropdown {
+	width: 50px;
+	position: relative;
+}
+
+.dropdown input {
+	width: 100%;
+}
+
+.dropdown-arrow {
+	width: 15px;
+	height: 15px;
+	background: #ededed;
+	border: solid 1px #666666;
+	position: absolute;
+	left: 31px;
+	top: 2px;
+}
+
+.dropdown-arrow:hover {
+	background: #bbbbbb;
+	cursor: pointer;
+}
+
+.dropdown-menu {
+	width: 100%;
+	border: solid 1px #666666;
+	position: absolute;
+	top: 21px;
+	left: 0;
+}
+
+.dropdown-menu ol {
+	margin: 0;
+	padding: 0;
+}
+
+.dropdown-menu ol li {
+	list-style-type: none;
+	padding: 2px 5px;
+}
+
+.dropdown-menu ol li:hover {
+	background: #bbbbbb;
+	cursor: pointer;
+}

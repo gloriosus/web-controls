@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<title>Dropdown</title>
+		<link rel="stylesheet" href="../dropdown/dropdown.css" />
+		<script type="text/javascript" src="../dropdown/dropdown.js"></script>
+		<style>
+			body {
+				margin: 0;
+			}
+			
+			.content {
+				width: 300px;
+				height: 300px;
+				border: solid 1px #ededed;
+				margin: 0 auto;
+				margin-top: calc(50vh - 150px);
+			}
+			
+			.dropdown {
+				margin: 0 125px;
+				margin-top: 140px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="content">
+			<div class="dropdown">
+				<input id="dropdown-input" type="text" value="1" />
+				<div class="dropdown-arrow">
+					<svg width="15" height="15">
+						<path d="M 4 5 L 8 10 L 12 5" stroke="#666666" fill="transparent" />
+					</svg>
+				</div>
+				<div class="dropdown-menu" style="display: none;">
+					<ol id="dropdown-list">
+						<li>1</li>
+						<li>2</li>
+						<li>3</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
